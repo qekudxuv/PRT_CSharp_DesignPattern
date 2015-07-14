@@ -52,6 +52,8 @@
     <Compile Include="SimpleFactroy\GreenTea.cs" />
     <Compile Include="SimpleFactroy\IBeverageProvide.cs" />
     <Compile Include="SimpleFactroy\SimpleBeverageFactory.cs" />
+    <Compile Include="Template\Abstract\AbstractMailTemplate.cs" />
+    <Compile Include="Template\Interface\ISmtpService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
