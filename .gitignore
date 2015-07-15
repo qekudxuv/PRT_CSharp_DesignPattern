@@ -1,0 +1,9 @@
+#ignore list
+[Oo]bj
+[Bb]in
+[Tt]emp
+*.user
+*.suo
+*.[Cc]ache
+*.bak
+*.log 
