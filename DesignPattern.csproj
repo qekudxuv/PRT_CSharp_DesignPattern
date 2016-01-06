@@ -53,6 +53,12 @@
     <Compile Include="SimpleFactroy\IBeverageProvide.cs" />
     <Compile Include="SimpleFactroy\SimpleBeverageFactory.cs" />
     <Compile Include="Singleton\Singleton.cs" />
+    <Compile Include="Strategy\Implement\NormalCalculator.cs" />
+    <Compile Include="Strategy\Implement\WedCalculator.cs" />
+    <Compile Include="Strategy\Implement\TueCalculator.cs" />
+    <Compile Include="Strategy\Implement\MonCalculator.cs" />
+    <Compile Include="Strategy\Interface\IStrategy.cs" />
+    <Compile Include="Strategy\StoreContext.cs" />
     <Compile Include="Template\Abstract\AbstractMailTemplate.cs" />
     <Compile Include="Template\Interface\ISmtpService.cs" />
   </ItemGroup>
