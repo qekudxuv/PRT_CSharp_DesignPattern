@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern", "DesignPattern.csproj", "{0BDB40C3-6E71-425E-8A2E-A4D3FC1C2CBE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{36EF0D6B-2DD0-4B61-9505-A588C992BFFB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactroy", "SimpleFactroy\SimpleFactroy.csproj", "{60FA31D7-2B9B-4095-A5A9-14B4328FC170}"
@@ -25,10 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0BDB40C3-6E71-425E-8A2E-A4D3FC1C2CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0BDB40C3-6E71-425E-8A2E-A4D3FC1C2CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0BDB40C3-6E71-425E-8A2E-A4D3FC1C2CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0BDB40C3-6E71-425E-8A2E-A4D3FC1C2CBE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{36EF0D6B-2DD0-4B61-9505-A588C992BFFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{36EF0D6B-2DD0-4B61-9505-A588C992BFFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36EF0D6B-2DD0-4B61-9505-A588C992BFFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
