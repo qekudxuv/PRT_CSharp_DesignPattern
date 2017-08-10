@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DP.Strategy
+namespace Strategy
 {
     class MonCalculator : IStrategy
     {
@@ -8,9 +8,9 @@ namespace DP.Strategy
         {
             double price = listPrice;
 
-            if (listPrice > 1000)
+            if (listPrice >= 1000)
             {
-                price -= 50;                    
+                price -= 50;
             }
 
             return Convert.ToInt32(price);

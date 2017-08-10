@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace DP.Strategy
+namespace Strategy
 {
     class TueCalculator : IStrategy
     {
@@ -12,7 +8,7 @@ namespace DP.Strategy
         {
             double price = listPrice;
 
-            if (listPrice > 1000)
+            if (listPrice >= 1000)
             {
                 price *= 0.9;
             }

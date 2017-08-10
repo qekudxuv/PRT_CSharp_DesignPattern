@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DP.Strategy
+namespace Strategy
 {
     class WedCalculator : IStrategy
     {
@@ -8,7 +8,7 @@ namespace DP.Strategy
         {
             double price = listPrice;
 
-            if (price > 1000)
+            if (price >= 1000)
             {
                 Random r = new Random();
                 price = price * r.NextDouble();
