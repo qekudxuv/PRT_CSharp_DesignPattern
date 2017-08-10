@@ -6,4 +6,5 @@
 *.suo
 *.[Cc]ache
 *.bak
-*.log 
+*.log
+.vscode/ 
