@@ -1,4 +1,6 @@
-﻿namespace Observer
+﻿using System;
+
+namespace Observer
 {
     /// <summary>
     /// reference from https://dotblogs.com.tw/joysdw12/series/1?qq=Web%2520API
