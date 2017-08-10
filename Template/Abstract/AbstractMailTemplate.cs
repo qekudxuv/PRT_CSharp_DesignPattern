@@ -1,6 +1,6 @@
-﻿namespace DP.Template
+﻿namespace Template
 {
-    public abstract class AbstractMailTemplate
+    public abstract class AbstractMailTemplate :　IMail
     {
         protected ISmtpService _smtpSvc = null;
 
