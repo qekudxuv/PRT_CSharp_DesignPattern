@@ -1,11 +1,6 @@
-﻿using DP.Decorate.Component;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 
-namespace DP.Decorate.ConcreteDecorator
+namespace Decorate
 {
     class EncryptedMessageWriter : IMessageWriter
     {
@@ -14,17 +9,17 @@ namespace DP.Decorate.ConcreteDecorator
         //被裝飾者
         private IMessageWriter messageWriter;
 
-        public EncryptedMessageWriter(IMessageWriter msgWriter) 
+        public EncryptedMessageWriter(IMessageWriter msgWriter)
         {
             this.messageWriter = msgWriter;
         }
 
-        public string Message 
+        public string Message
         {
             set { message = value; }
         }
 
-        public void WriteMessage(string filePath) 
+        public void WriteMessage(string filePath)
         {
             Console.WriteLine("Message已加密");
             messageWriter.Message = this.EncryptMessage(message);//加密資訊
@@ -32,7 +27,7 @@ namespace DP.Decorate.ConcreteDecorator
             messageWriter.WriteMessage(filePath);
         }
 
-        private string EncryptMessage(string message) 
+        private string EncryptMessage(string message)
         {
             return "(encrytedMsgInBase64)" + message;
         }

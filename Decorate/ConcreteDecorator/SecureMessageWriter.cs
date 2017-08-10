@@ -1,11 +1,6 @@
-﻿using DP.Decorate.Component;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 
-namespace DP.Decorate.ConcreteDecorator
+namespace Decorate
 {
     class SecureMessageWriter : IMessageWriter
     {
@@ -14,19 +9,19 @@ namespace DP.Decorate.ConcreteDecorator
         //被裝飾者
         private IMessageWriter messageWriter;
 
-        public SecureMessageWriter(IMessageWriter msgWriter) 
+        public SecureMessageWriter(IMessageWriter msgWriter)
         {
             this.messageWriter = msgWriter;
         }
 
-        public string Message 
+        public string Message
         {
             set { message = value; }
         }
-        
-        public void WriteMessage(string filePath) 
+
+        public void WriteMessage(string filePath)
         {
-            if (this.ValidateUser()) 
+            if (this.ValidateUser())
             {
                 Console.WriteLine("Message驗證已通過");
                 //添加新的行為
@@ -39,7 +34,7 @@ namespace DP.Decorate.ConcreteDecorator
                 Console.WriteLine("Message驗證未通過");
             }
         }
-        private bool ValidateUser() 
+        private bool ValidateUser()
         {
             //驗證使用者代碼
             return true;
