@@ -6,8 +6,9 @@ practice design pattern with C#
 ###Include below patterns:  
 - Adapter  
 - Decorate  
+- Observer  
 - Proxy  
 - SimpleFactroy  
 - Singleton  
 - Strategy  
-- Template
+- Template  
